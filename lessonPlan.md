@@ -42,3 +42,17 @@
   * Pass the single function down as a prop
   * Have the ActionBtns fire the passed down function
   * Show in the dev tools that the onClick handler says bound
+
+## 05-Feed-Me-Seymour
+
+  * Demo Activity
+  * Activity Instructions:
+    * Create a similar "Feed Me Seymour" game to the one shown just now.
+    * Your game should be composed of one parent component (Seymour) and three child components (Tasty Treats).
+    * Clicking buttons inside of the child components should increase the total "consumed" shown in Seymour's component by different amounts.
+    * Once Seymour has consumed more than 500 an alert should be triggered saying something like: "Seymour is full!"
+
+  *
+
+  * Show how to modularize the btns
+    * Pass Name and FoodPts in
