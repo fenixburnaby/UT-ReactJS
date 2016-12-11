@@ -14,7 +14,7 @@ var TodoItem = React.createClass({
 var App = React.createClass({
   render: function() {
     var mappedTodos = todos.map(function(todo) {
-      return <TodoItem todo={todo} key={index} />
+      return <TodoItem todo={todo} />
     });
     return (
       <div className="container">
