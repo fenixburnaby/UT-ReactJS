@@ -33,3 +33,12 @@
       * React Dev Tools
       * Click the 'Allow access to file URL's'
   * Demo dev tools
+
+## 04-Child-to-Parent
+
+  * Export out btns and explain that these btns no longer have access to the counters state
+  * Change to a single setCounter fn
+  * Pass the count down as a prop
+  * Pass the single function down as a prop
+  * Have the ActionBtns fire the passed down function
+  * Show in the dev tools that the onClick handler says bound
