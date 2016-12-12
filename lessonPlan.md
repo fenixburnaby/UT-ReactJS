@@ -61,3 +61,19 @@
     * Create foodBtn component
     * Pass eatFood fn to change Seymour's hunger state
     * Pass in foodPts value and foodName
+    * Connect those props to the footBtn
+    * Connect a onClick handler to change hunger state
+
+## 06-Forms
+
+  * Change File names and vars over to a Form
+  * Bootstrap in a simple Form
+  * Set Initial State that matches the form, pass in as values in the form
+  * Add an onChange fn to fire when the form input is changed
+  * Add id to the inputs to be able to reference them
+  * Explain that an event is passed as the first parameter into the change fn
+  * Reference that event to update the state
+  * Add a submit btn and form on submit fn
+  * Use event.preventDefault to stop the form from submitting and refreshing the page
+  * Log the state to show that you can now use the data however you like
+  * Reset the state
