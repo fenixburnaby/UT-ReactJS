@@ -1,8 +1,6 @@
 var React = require("react");
 
-var BurgerBtn = require("./Seymour/BurgerBtn");
-var FriesBtn = require("./Seymour/FriesBtn");
-var ShakeBtn = require("./Seymour/ShakeBtn");
+var FoodBtn = require("./Seymour/FoodBtn");
 
 var Seymour = React.createClass({
 
@@ -29,15 +27,15 @@ var Seymour = React.createClass({
         <div className="col-sm-12">
           <div className="panel panel-default">
             <div className="panel-heading">
-              <h3 className="panel-title text-center">Seymour!</h3>
+              <h3 className="panel-title text-center">Feed Seymour!</h3>
             </div>
             <div className="panel-body">
               <h1>Rawr I'm Seymour and I'm hungry!</h1>
-              <h1>I will be full at 500 foods!</h1>
-              <h1>Current foods = {this.state.hunger}</h1>
-              <BurgerBtn hunger={this.state.hunger} eatFood={this.eatFood}/>
-              <FriesBtn hunger={this.state.hunger} eatFood={this.eatFood}/>
-              <ShakeBtn hunger={this.state.hunger} eatFood={this.eatFood}/>
+              <h2>I will be full at 500 foods!</h2>
+              <h2>Current foods = {this.state.hunger}</h2>
+              <FoodBtn foodName="Burger" foodPts={50} eatFood={this.eatFood} />
+              <FoodBtn foodName="Fries" foodPts={20} eatFood={this.eatFood} />
+              <FoodBtn foodName="Shake" foodPts={25} eatFood={this.eatFood} />
             </div>
           </div>
         </div>

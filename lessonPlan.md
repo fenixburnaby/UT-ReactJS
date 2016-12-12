@@ -33,6 +33,9 @@
       * React Dev Tools
       * Click the 'Allow access to file URL's'
   * Demo dev tools
+  * Create lifecycle method componentDidUpdate
+    * Demo that is will be called after a render
+    * Refer to https://facebook.github.io/react/docs/react-component.html
 
 ## 04-Child-to-Parent
 
@@ -48,11 +51,13 @@
   * Demo Activity
   * Activity Instructions:
     * Create a similar "Feed Me Seymour" game to the one shown just now.
-    * Your game should be composed of one parent component (Seymour) and three child components (Tasty Treats).
+    * Your game should be composed of one parent component (Seymour) and three rendered child components (Tasty Treats).
     * Clicking buttons inside of the child components should increase the total "consumed" shown in Seymour's component by different amounts.
     * Once Seymour has consumed more than 500 an alert should be triggered saying something like: "Seymour is full!"
 
-  *
-
-  * Show how to modularize the btns
-    * Pass Name and FoodPts in
+  * Live Code Answer:
+    * Change over component file name, initial state var, and change panel
+    * Display state in panel
+    * Create foodBtn component
+    * Pass eatFood fn to change Seymour's hunger state
+    * Pass in foodPts value and foodName

@@ -16,6 +16,12 @@ var Counter = React.createClass({
     this.setState({ clicks: 0 });
   },
 
+  componentDidUpdate: function() {
+    if (this.state.clicks >= 10) {
+      alert('Counter Over 10!!!');
+    }
+  },
+
   render: function() {
     return (
       <div className="row">
