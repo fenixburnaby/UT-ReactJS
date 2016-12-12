@@ -90,8 +90,10 @@
   * Require axios (similar to request for node but also made for the client)
   * npm install axios
   * Export a obj with a getMovieByName function
-  * Return the result of an axios get
+  * From the Movie file pass the handleSubmit to the Form component as submit
+  * Return the result of an axios get in Movie file
     * Quick api to ping https://www.omdbapi.com/
     * Axios npm docs https://www.npmjs.com/package/axios
   * In the submit handler log out the result of the getMovieByName
-  * Explain that this data can now be passed to children to be displayed
+  * Assign the results to the state
+  * Display the state results on the page. This can be replaced with a results component later
