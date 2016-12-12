@@ -1,3 +1,5 @@
+# Start from 01-Review and live code through each folder.
+
 ## 01-Review
 
 * Review Package.json
@@ -77,3 +79,16 @@
   * Use event.preventDefault to stop the form from submitting and refreshing the page
   * Log the state to show that you can now use the data however you like
   * Reset the state
+
+## 07-Axios
+
+  * Remove num field
+  * Create a utils/helpers.js file
+  * Require axios (similar to request for node but also made for the client)
+  * npm install axios
+  * Export a obj with a getMovieByName function
+  * Return the result of an axios get
+    * Quick api to ping https://www.omdbapi.com/
+    * Axios npm docs https://www.npmjs.com/package/axios
+  * In the submit handler log out the result of the getMovieByName
+  * Explain that this data can now be passed to children to be displayed
