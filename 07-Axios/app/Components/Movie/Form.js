@@ -1,12 +1,9 @@
 var React = require("react");
 
-var helpers = require("../utils/helpers");
-
 var Form = React.createClass({
 
   getInitialState: function() {
-    return {
-      text: "" };
+    return { text: "" };
   },
 
   handleChange: function(event) {
@@ -18,9 +15,7 @@ var Form = React.createClass({
   handleSubmit: function(event) {
     event.preventDefault();
 
-    helpers.getMovieByName(this.state.text).then(function(data){
-      console.log(data.data);
-    })
+    this.props.submit(this.state.text)
     this.setState({ text: "" });
   },
 
@@ -30,7 +25,7 @@ var Form = React.createClass({
         <div className="col-sm-12">
           <div className="panel panel-default">
             <div className="panel-heading">
-              <h3 className="panel-title text-center">Form Capture</h3>
+              <h3 className="panel-title text-center">Movie Title Search</h3>
             </div>
             <div className="panel-body">
               <form onSubmit={this.handleSubmit}>

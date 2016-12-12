@@ -82,7 +82,10 @@
 
 ## 07-Axios
 
+  * Create a Movie file
+  * Export form.js
   * Remove num field
+  * Change handleSubmit to take a prop of submit
   * Create a utils/helpers.js file
   * Require axios (similar to request for node but also made for the client)
   * npm install axios
