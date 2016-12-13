@@ -1,5 +1,12 @@
 # Start from 01-Review and live code through each folder.
 
+## 00-Check-Up
+  * How is everyone doing?
+  * "We will be reviewing what we went over last class and use that as a jumping off point for todays lesson."
+  * "We will be running through a quick slide deck and then get right into coding."
+  * "Questions before we get started?"
+  * Start slides
+
 ## 01-Review
 
 * Review Package.json
