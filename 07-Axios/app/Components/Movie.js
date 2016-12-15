@@ -12,7 +12,11 @@ var Movie = React.createClass({
 
   handleSubmit: function(searchTerm) {
     helpers.getMovieByName(searchTerm).then(function(data){
-      this.setState({ result: data.data });
+      if (data.data.Error) {
+        this.setState({ result: {Title: 'No Results Found!'} });
+      } else {
+        this.setState({ result: data.data });
+      }
     }.bind(this));
   },
 
