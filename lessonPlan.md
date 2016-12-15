@@ -1,4 +1,4 @@
-# Start from 01-Review and live code through each folder.
+# Start from 00-Check-Up and live code through each folder.
 
 ## 00-Check-Up
   * How is everyone doing?
@@ -6,6 +6,7 @@
   * "We will be running through a quick slide deck and then get right into coding."
   * "Questions before we get started?"
   * Start slides
+  * Use the 00-React folder as a starting point boiler plate code
 
 ## 01-Review
 
@@ -104,3 +105,8 @@
   * In the submit handler log out the result of the getMovieByName
   * Assign the results to the state
   * Display the state results on the page. This can be replaced with a results component later
+
+## 08-MaterialUI
+
+  * We will be incorporating a frontend library for React. This means it is not only a lot of css but it's also components!
+  * Lets remove that bootstrap link in out index.html!
