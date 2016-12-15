@@ -1,4 +1,5 @@
 # Start from 00-Check-Up and live code through each folder.
+###### Note: These are just personal lesson plan notes for myself.
 
 ## 00-Check-Up
   * How is everyone doing?
@@ -106,7 +107,14 @@
   * Assign the results to the state
   * Display the state results on the page. This can be replaced with a results component later
 
-## 08-MaterialUI
+## 08-FrontEndApp
 
-  * We will be incorporating a frontend library for React. This means it is not only a lot of css but it's also components!
-  * Lets remove that bootstrap link in out index.html!
+  * Instructions:
+    * We will be creating a simple app using Axios for API calls.
+    * Pair up in groups of 3-4
+    * Your goal will be to create a front-end App to display the data you get back from a API
+    * You must break out your page into components!
+    * You app must take at least 1 input from an input form
+    * Use Github's API https://developer.github.com/v3/repos/ or feel free to use another you may have in mind.
+
+## 09-NotesTracker
