@@ -123,7 +123,8 @@
     * We will first be going through 09-ES6-Boiler-Plate to give you a base starting place for your future react applications.
     * Please read through the difference between hash history and browserHistory. We will utilizing browserHistory for this example as it is recommended for production applications.
     * https://github.com/ReactTraining/react-router/blob/master/docs/guides/Histories.md#histories
-    * We will be using Reactstrap as a UI Library like bootstrap because why not, and you will see how much easier it is to incorporate a component library that is React ready
-    * https://reactstrap.github.io/
+    * We will be using material-ui as a UI Library like bootstrap because why not, and you will see how much easier it is to incorporate a component library that is React ready
+    * http://www.material-ui.com/#/
     * Note: I will also be using react-grid-system because it is a simple grid system that will look very familiar to us
     * https://zoover.github.io/react-grid-system/
+    * Also we have added another preset to webpack called stage-0. This will allow us to use the early proposed features for ECMAScript. Also material-ui needs stage-1 so we will be covered by using stage-0.
