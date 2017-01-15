@@ -4,7 +4,7 @@ import { Link } from 'react-router'
 import { Row, Col } from 'react-grid-system'
 
 import { Card, CardTitle, CardText, CardActions } from 'material-ui/Card'
-import RaisedButton from 'material-ui/RaisedButton';
+import RaisedButton from 'material-ui/RaisedButton'
 
 
 export default class Welcome extends React.Component {
@@ -23,7 +23,10 @@ export default class Welcome extends React.Component {
             </CardText>
             <CardActions>
               <Link to={'secondpage'}>
-                <RaisedButton label="Go to Second Page" primary={true} />
+                <RaisedButton
+                  label="Go to Second Page"
+                  primary={true}
+                />
               </Link>
             </CardActions>
           </Card>

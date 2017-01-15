@@ -128,3 +128,10 @@
     * Note: I will also be using react-grid-system because it is a simple grid system that will look very familiar to us
     * https://zoover.github.io/react-grid-system/
     * Also we have added another preset to webpack called stage-0. This will allow us to use the early proposed features for ECMAScript. Also material-ui needs stage-1 so we will be covered by using stage-0.
+  * Walk through application with monitors closed
+  * Repetition 2:
+    * 'Everyone Please Open your computers and walk a partner through the code we just discussed'
+  * Repetition 3
+  * Instructions:
+    * Create an additional page and incorporate some material-ui
+    * BONUS Create a navbar (appbar) that will display across all pages and act as navigation between pages. *Note:* Remember to create a component folder!

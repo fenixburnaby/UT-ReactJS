@@ -2,7 +2,8 @@ import React from 'react'
 
 import { Row, Col } from 'react-grid-system'
 
-import { Card, CardTitle, CardText } from 'material-ui/Card';
+import { Card, CardTitle, CardText } from 'material-ui/Card'
+
 
 export default class SecondPage extends React.Component {
 
