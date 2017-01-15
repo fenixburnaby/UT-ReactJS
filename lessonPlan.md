@@ -110,11 +110,20 @@
 ## 08-FrontEndApp
 
   * Instructions:
-    * We will be creating a simple app using Axios for API calls.
+    * We will be creating a simple app using Axios for API calls
     * Pair up in groups of 3-4
     * Your goal will be to create a front-end App to display the data you get back from a API
     * You must break out your page into components!
     * You app must take at least 1 input from an input form
-    * Use Github's API https://developer.github.com/v3/repos/ or feel free to use another you may have in mind.
+    * Use Github's API https://developer.github.com/v3/repos/ or feel free to use another you may have in mind
 
-## 09-NotesTracker
+## 09-ES6-Boiler-Plate
+  * Slack out the following:
+  * Welcome Everyone!
+    * We will first be going through 09-ES6-Boiler-Plate to give you a base starting place for your future react applications.
+    * Please read through the difference between hash history and browserHistory. We will utilizing browserHistory for this example as it is recommended for production applications.
+    * https://github.com/ReactTraining/react-router/blob/master/docs/guides/Histories.md#histories
+    * We will be using Reactstrap as a UI Library like bootstrap because why not, and you will see how much easier it is to incorporate a component library that is React ready
+    * https://reactstrap.github.io/
+    * Note: I will also be using react-grid-system because it is a simple grid system that will look very familiar to us
+    * https://zoover.github.io/react-grid-system/
