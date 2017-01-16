@@ -42,6 +42,11 @@ var b = Object.assign({}, a, {name: 'john'})
 
 // ^^^^ a and b are different pieces of data (^_^)
 
+// ES6 Spread Operator shorthand!
+var b = Object.assign({}, a, {name: 'john'})
+// Becomes
+var b = { ...a, name: 'john' }
+
 // Example 4
 var a = [1,2,3,4]
 var b = a.concat(5)
