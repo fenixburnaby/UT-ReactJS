@@ -141,3 +141,15 @@
     * What does Immutable data mean?
     * Pros and Cons of Immutable data?
   * Walk through / code through 10-ImmutableState file
+
+## 11-Redux-Intro
+  * Explain the following:
+    * In Redux we will extract the state of our application and its components into a store.
+    * Our store will be an object containing any data or state information about our application
+    * As we need to update this we will dispatch an action
+    * Actions have a type and a payload
+    * This Action gets send to a reducer to change our state
+    * We will write smart code to figure out what we want to update and then update it using our new skills with immutable data
+    * Once we update the store our application will receive the new data and update as per React
+  * https://camo.githubusercontent.com/af8803571294fe373a54d039be8f9709f15a2ad4/687474703a2f2f6d616b6569746f70656e2e636f6d2f7374617469632f696d616765732f72656475785f666c6f7763686172742e706e67
+  * Live code the example in 11 explaining that this is only for demonstration of the flow within Redux, it will not be the final way of coding it
