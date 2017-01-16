@@ -128,7 +128,7 @@
     * Note: I will also be using react-grid-system because it is a simple grid system that will look very familiar to us
     * https://zoover.github.io/react-grid-system/
     * Also we have added another preset to webpack called stage-0. This will allow us to use the early proposed features for ECMAScript. Also material-ui needs stage-1 so we will be covered by using stage-0.
-  * Walk through application with monitors closed
+  * Repetition 1: Walk through application with monitors closed
   * Repetition 2:
     * 'Everyone Please Open your computers and walk a partner through the code we just discussed'
   * Repetition 3
@@ -153,3 +153,19 @@
     * Once we update the store our application will receive the new data and update as per React
   * https://camo.githubusercontent.com/af8803571294fe373a54d039be8f9709f15a2ad4/687474703a2f2f6d616b6569746f70656e2e636f6d2f7374617469632f696d616765732f72656475785f666c6f7763686172742e706e67
   * Live code the example in 11 explaining that this is only for demonstration of the flow within Redux, it will not be the final way of coding it
+
+## 12-React-Redux
+  * Repetition 1: Walk through application with monitors closed
+    * Redux has a bit of setup to get our app prepared
+    * app.js - We will be wrapping our application in a Provider component that has the store attached to it. This will allow any component to connect to our redux store and also dispatch actions
+    * store.js - As per our last example we need to create a store and pass it our reducer. In this example we are also passing in middleware to improve some functionality later on, as well as including a logger to help us with development
+    * reducers/index.js - We are going to separate out different parts of our applications state and combine them here. Each separate reducer will contain the state they affect and the immutable logic behind them
+    * Welcome.js - To get store data into our components we will use a class decorator for connect. This will wrap our component and pass in the values we declare as props. We will need to add class decorators to our webpack config as well. To update our store we will dispatch actions like before.
+    * actions/countActions.js - We import these action functions to be reused across our entire application.
+  * Repetition 2:
+    * 'Everyone Please Open your computers and walk a partner through the code we just discussed'
+  * Repetition 3
+  * Instructions:
+    * Create an input field whos value is stored in our store as you type
+    * When you click the increment or decrement button it use the value of the input field to increment or decrement the count
+    * BONUS: Create a input field and button to update the user
